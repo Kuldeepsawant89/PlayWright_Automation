@@ -140,3 +140,17 @@ function constScope() {
 }
 constScope();
 
+// variable declaration and value assignment
+var a = 10; 
+let b = 20;
+const c = 30;
+//scenarios of re-declaration and re-initialization
+var a = 15; // Re-declaration and re-initialization of var is allowed
+console.log(a); // Output: 15
+// let b = 25; // Error: Identifier 'b' has already been declared (re-declaration of let is not allowed)
+b = 25;
+console.log(b); // Output: 25 (re-initialization of let is allowed)
+// const c = 35; // Error: Identifier 'c' has already been declared (re-declaration of const is not allowed)
+// c = 35; // Error: Assignment to constant variable (re-initialization of const is not allowed)    
+
+

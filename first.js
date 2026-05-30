@@ -26,7 +26,7 @@ s = "Hello, JavaScript!";
 console.log(s);
 console.log(typeof s);
 
-s = 'H';
+s = "H";
 console.log(s);
 console.log(typeof s);
 
@@ -37,4 +37,5 @@ console.log(typeof isfollowed);
 Isfollowed = false;
 console.log(Isfollowed);
 console.log(typeof Isfollowed);
+
 
